@@ -3,7 +3,7 @@ package com.employee;
 /**
  *  Intern class.
  */
-public class Intern extends Employee {
+public class Intern implements EmployeeInt {
 
     @Override
     public double calculateSalary() {
