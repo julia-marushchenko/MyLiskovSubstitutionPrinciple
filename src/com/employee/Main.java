@@ -11,13 +11,12 @@ public class Main {
 
         // Creating parent and child classes.
         Employee e = new Employee();
-        Employee e1 = new Intern();
+        EmployeeInt e1 = new Intern();
 
         // Calling methods of created objects.
         System.out.println(e.calculateSalary());
         System.out.println(e.calculateBonus());
         System.out.println(e1.calculateSalary());
-        System.out.println(e1.calculateBonus());
 
     }
 }
